@@ -47,3 +47,29 @@ header, .menu-list {
     width: 20em;
     height: 80px;
 }
+main {
+    height: calc(100vh - 100px - 30px);
+}
+footer {
+    background-color:rgb(136, 123, 123); 
+}
+/* @media screen and (max-width: 900px) {
+    .logo {
+        display: none;
+    }
+    .menu {
+        margin: auto;
+    }
+
+    .menu-list {
+        flex-direction: column;
+    }
+    .slide-image {
+        min-width: 100%;
+    }
+    .slide-image{
+        margin-left: 0;
+        min-height: 50vh;
+        margin-top: auto;
+    }
+} */
